@@ -1,101 +1,101 @@
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/header-light.svg">
-  <img src="assets/header-light.svg" alt="Hippilokkery — Fullstack Developer. Web, API, Telegram." width="100%">
-</picture>
+# Hippilokkery
 
-Разрабатываю **веб-интерфейсы, серверные API и Telegram-интеграции**.
-В моих открытых проектах — React и TypeScript, Node.js, базы данных и автоматизация обработки заявок.
+**Fullstack-разработчик.** Пишу веб-приложения на React и Node.js, делаю Telegram-ботов и автоматизацию.
 
-[![Telegram — @Hippilokkery](https://img.shields.io/badge/Telegram-%40Hippilokkery-1F2937?style=for-the-badge&logo=telegram&logoColor=B7D79C)](https://t.me/Hippilokkery) [![Веб-портфолио](https://img.shields.io/badge/Portfolio-Website-1F2937?style=for-the-badge&logo=githubpages&logoColor=B7D79C)](https://hippi44.github.io/portfolio/)
+[![Telegram — @Hippilokkery](https://img.shields.io/badge/Telegram-%40Hippilokkery-0284C7?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/Hippilokkery) [![Портфолио](https://img.shields.io/badge/Portfolio-Website-334155?style=for-the-badge&logo=githubpages&logoColor=white)](https://hippi44.github.io/portfolio/)
 
-## Технологии
+## Biba VPN
 
-**Frontend**
+[![Biba VPN — логотип и ссылка на Telegram-бота](assets/previews/biba-vpn.png)](https://t.me/BibaVPN_bot)
 
-![TypeScript](https://img.shields.io/badge/TypeScript-1F2937?style=flat&logo=typescript&logoColor=9EB8D0) ![JavaScript](https://img.shields.io/badge/JavaScript-1F2937?style=flat&logo=javascript&logoColor=D8CDA6) ![React](https://img.shields.io/badge/React-1F2937?style=flat&logo=react&logoColor=9EB8D0) ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-1F2937?style=flat&logo=tailwindcss&logoColor=9EB8D0)
+Мой VPN-сервис с ботом в Telegram. Подключение, тарифы и поддержка — в **[@BibaVPN_bot](https://t.me/BibaVPN_bot)**.
 
-**Backend и данные**
+[![Открыть Biba VPN](https://img.shields.io/badge/Biba_VPN-Open_bot-0284C7?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/BibaVPN_bot)
 
-![Node.js](https://img.shields.io/badge/Node.js-1F2937?style=flat&logo=nodedotjs&logoColor=B7D79C) ![NestJS](https://img.shields.io/badge/NestJS-1F2937?style=flat&logo=nestjs&logoColor=DBADB6) ![Express](https://img.shields.io/badge/Express-1F2937?style=flat&logo=express&logoColor=D1D5DB) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-1F2937?style=flat&logo=postgresql&logoColor=9EB8D0) ![MongoDB](https://img.shields.io/badge/MongoDB-1F2937?style=flat&logo=mongodb&logoColor=B7D79C) ![Redis](https://img.shields.io/badge/Redis-1F2937?style=flat&logo=redis&logoColor=DBADB6)
+Связаться со мной по поводу проекта: [@Hippilokkery](https://t.me/Hippilokkery).
 
-**Инструменты и тестирование**
-
-![Docker](https://img.shields.io/badge/Docker-1F2937?style=flat&logo=docker&logoColor=9EB8D0) ![Jest](https://img.shields.io/badge/Jest-1F2937?style=flat&logo=jest&logoColor=DBADB6) ![Playwright](https://img.shields.io/badge/Playwright-1F2937?style=flat)
-
-Prisma · BullMQ · Vite · GitHub Actions · HTML · CSS / SCSS
-
-## Избранные проекты
-
-### Automation System
-
-**Обработка заявок через Telegram и событийные workflow.** Демонстрационный контур: бот → API → очередь → обработчик сценариев.
-Заявки и журнал выполнения сохраняются в PostgreSQL; реализованы фоновые задачи, повторные попытки и защита от дублирования.
-
-<sub>TypeScript · NestJS · PostgreSQL · Prisma · Redis · BullMQ · Docker</sub>
-
-[Репозиторий](https://github.com/Hippi44/automation-system) · [Архитектура и запуск](https://github.com/Hippi44/automation-system/blob/main/README.md)
-
-### Web-Larёk · Express API
-
-**Учебный fullstack-проект интернет-магазина.** React-интерфейс и Express API: каталог в MongoDB, JWT-авторизация с обновлением токенов, защищённое управление товарами и загрузка изображений.
-Состав и стоимость заказа проверяются на сервере.
-
-<sub>React · TypeScript · Node.js · Express · MongoDB · Mongoose · JWT</sub>
-
-[Репозиторий](https://github.com/Hippi44/web-larek-express) · [Реализация: `review-admin`](https://github.com/Hippi44/web-larek-express/tree/review-admin)
-
-### Stellar Burgers
-
-**Учебное React-приложение для сборки бургеров.** Состояние конструктора на Redux Toolkit, работа с внешним API, авторизация, защищённые маршруты и история заказов.
-В репозитории есть unit-тесты редьюсеров на Jest и браузерные сценарии на Playwright с подменой API через HAR.
-
-<sub>React · TypeScript · Redux Toolkit · React Router · Jest · Playwright</sub>
-
-[Репозиторий](https://github.com/Hippi44/stellar-burgers) · [Реализация: `review`](https://github.com/Hippi44/stellar-burgers/tree/review) · [E2E-тесты](https://github.com/Hippi44/stellar-burgers/tree/review/tests)
+## Проекты
 
 ### BoostPay
 
-**Frontend-демо каталога цифровых товаров.** Поиск и фильтры, избранное, личный кабинет и административный интерфейс для управления каталогом и заказами.
-Данные и демонстрационная авторизация работают через `localStorage`; серверная авторизация и реальные платежи не подключены.
+[![BoostPay — скриншот опубликованного сайта](assets/previews/boostpay.webp)](https://hippi44.github.io/boostpay-app/)
+
+Витрина цифровых товаров: поиск, фильтры, избранное, личный кабинет и админка. Из админки можно менять каталог и статусы заказов. Данные и авторизация хранятся в `localStorage`, платежи не подключены.
 
 <sub>React · TypeScript · React Router · Vite · CSS Modules</sub>
 
-[Репозиторий](https://github.com/Hippi44/boostpay-app) · [Открыть демо](https://hippi44.github.io/boostpay-app/)
+[Код](https://github.com/Hippi44/boostpay-app) · [Сайт](https://hippi44.github.io/boostpay-app/)
 
 ### NOKTURN
 
-**Адаптивный лендинг детейлинг-студии без фреймворков.** Интерактивное сравнение «до/после» с управлением мышью, касанием и клавиатурой, галерея на `<dialog>`, фильтры и клиентская валидация формы.
-Предусмотрены семантическая разметка и поддержка `prefers-reduced-motion`.
+[![NOKTURN — скриншот опубликованного сайта](assets/previews/nokturn.webp)](https://hippi44.github.io/lendingPage/)
 
-<sub>HTML · CSS · JavaScript · Pointer Events · Web Accessibility</sub>
+Лендинг детейлинг-студии с фотографиями «до/после», галереей, фильтрами работ и выбором тарифов. Слайдер работает с мышью, касаниями и клавиатурой. Формы проверяются на клиенте; анимации учитывают `prefers-reduced-motion`.
 
-[Репозиторий](https://github.com/Hippi44/lendingPage) · [Открыть сайт](https://hippi44.github.io/lendingPage/)
+<sub>HTML · CSS · JavaScript · Pointer Events</sub>
 
-**Ещё один веб-проект:** [Electric Line](https://github.com/Hippi44/ElectricLine) — React-лендинг с Tailwind CSS, анимациями и карточками моделей. [Посмотреть сайт](https://hippi44.github.io/ElectricLine/).
+[Код](https://github.com/Hippi44/lendingPage) · [Сайт](https://hippi44.github.io/lendingPage/)
 
-## Мой продукт · Biba VPN
+### Electric Line
 
-**[Biba VPN — @BibaVPN_bot](https://t.me/BibaVPN_bot)** — мой VPN-сервис с Telegram-ботом: подключение, тарифы и помощь прямо в Telegram.
+[![Electric Line — скриншот опубликованного сайта](assets/previews/electric-line.webp)](https://hippi44.github.io/ElectricLine/)
 
-[![Открыть Biba VPN в Telegram](https://img.shields.io/badge/Biba_VPN-Open_bot-1F2937?style=for-the-badge&logo=telegram&logoColor=B7D79C)](https://t.me/BibaVPN_bot)
+Сайт аренды электровелосипедов: карточки моделей, характеристики, цены, контакты и карта пунктов аренды. Интерфейс на React, стили на Tailwind CSS, анимации на Motion.
 
-По вопросам разработки и сотрудничества: **[@Hippilokkery](https://t.me/Hippilokkery)**.
+<sub>React · TypeScript · Tailwind CSS · Motion · Vite</sub>
 
-## GitHub · публичный код
+[Код](https://github.com/Hippi44/ElectricLine) · [Сайт](https://hippi44.github.io/ElectricLine/)
+
+### Automation System
+
+![Automation System — схема обработки заявки](assets/previews/automation.svg)
+
+Telegram-бот собирает заявку и отправляет её в API. Задачи обрабатываются через BullMQ, а заявка, результат и шаги workflow сохраняются в PostgreSQL. Есть повторные попытки и защита от повторного создания заявки.
+
+<sub>TypeScript · NestJS · PostgreSQL · Prisma · Redis · BullMQ · Docker</sub>
+
+[Код](https://github.com/Hippi44/automation-system) · [Запуск](https://github.com/Hippi44/automation-system/blob/main/README.md)
+
+### Web-Larёk
+
+Магазин с React-интерфейсом и API на Express. Регистрация и JWT-авторизация, управление каталогом, загрузка изображений. Товары хранятся в MongoDB; сервер проверяет состав и сумму заказа.
+
+<sub>React · TypeScript · Express · MongoDB · Mongoose · JWT</sub>
+
+[Код: `review-admin`](https://github.com/Hippi44/web-larek-express/tree/review-admin)
+
+### Stellar Burgers
+
+Конструктор бургеров с выбором ингредиентов, оформлением заказа, профилем и историей заказов. Состояние на Redux Toolkit, данные приходят из внешнего API. Jest-тесты для редьюсеров конструктора и ингредиентов; Playwright-сценарии с HAR-файлами. Авторизация и закрытые маршруты.
+
+<sub>React · TypeScript · Redux Toolkit · React Router · Jest · Playwright</sub>
+
+[Код: `review`](https://github.com/Hippi44/stellar-burgers/tree/review) · [Тесты](https://github.com/Hippi44/stellar-burgers/tree/review/tests)
+
+## Стек
+
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-20232A?style=flat&logo=javascript&logoColor=F7DF1E) ![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB) ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-0F172A?style=flat&logo=tailwindcss&logoColor=38BDF8)
+
+![Node.js](https://img.shields.io/badge/Node.js-3C873A?style=flat&logo=nodedotjs&logoColor=white) ![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=flat&logo=nestjs&logoColor=white) ![Express](https://img.shields.io/badge/Express-334155?style=flat&logo=express&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-007A3E?style=flat&logo=mongodb&logoColor=white) ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat&logo=redis&logoColor=white)
+
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white) ![Jest](https://img.shields.io/badge/Jest-C21325?style=flat&logo=jest&logoColor=white) ![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=flat)
+
+Prisma · BullMQ · Vite · GitHub Actions · HTML · CSS / SCSS
+
+## GitHub
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/github-metrics-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="assets/github-metrics-light.svg">
-  <img src="assets/github-metrics-light.svg" alt="Статистика публичных репозиториев Hippi44: число репозиториев, репозитории с основным языком TypeScript и год создания аккаунта. Актуальные значения — в SVG и исходных данных по ссылке ниже." width="100%">
+  <img src="assets/github-metrics-light.svg" alt="GitHub: публичные репозитории, основной язык TypeScript и год регистрации аккаунта" width="100%">
 </picture>
 
-<sub>Только публичные данные GitHub API. TypeScript учитывается как основной язык репозитория. Карточка обновляется еженедельно при изменении показателей. [Данные](https://github.com/Hippi44/Hippi44/blob/main/assets/github-metrics.json) · [История активности](https://github.com/Hippi44?tab=overview)</sub>
+<sub>[Активность](https://github.com/Hippi44?tab=overview) · [Данные статистики](https://github.com/Hippi44/Hippi44/blob/main/assets/github-metrics.json)</sub>
 
 ## Связаться
 
-Обсудить веб-проект, Telegram-интеграцию или сотрудничество — **[@Hippilokkery](https://t.me/Hippilokkery)**.
+Если хотите обсудить проект или предложить сотрудничество, пишите в Telegram: **[@Hippilokkery](https://t.me/Hippilokkery)**.
 
-[![Написать @Hippilokkery в Telegram](https://img.shields.io/badge/Telegram-%40Hippilokkery-1F2937?style=for-the-badge&logo=telegram&logoColor=B7D79C)](https://t.me/Hippilokkery)
+[![Написать @Hippilokkery в Telegram](https://img.shields.io/badge/Telegram-%40Hippilokkery-0284C7?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/Hippilokkery)
 
 [Веб-портфолио](https://hippi44.github.io/portfolio/) · [GitHub](https://github.com/Hippi44)

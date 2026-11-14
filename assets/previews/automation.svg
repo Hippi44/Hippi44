@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="260" viewBox="0 0 960 260" role="img" aria-labelledby="title desc">
+  <title id="title">Automation System — обработка заявки</title>
+  <desc id="desc">Telegram-бот передаёт заявку в NestJS API. Задания идут в BullMQ и worker. PostgreSQL хранит заявки и шаги выполнения. Redis используется для очереди.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+      <path d="M 0 1 L 6 4 L 0 7" fill="none" stroke="#7B8BA3" stroke-width="1.4"/>
+    </marker>
+  </defs>
+  <rect x="1" y="1" width="958" height="258" rx="16" fill="#0F172A" stroke="#273449"/>
+  <g font-family="Segoe UI, Arial, sans-serif">
+    <rect x="28" y="34" width="188" height="94" rx="12" fill="#082F49" stroke="#0284C7"/>
+    <text x="122" y="77" text-anchor="middle" font-size="26" font-weight="600" fill="#7DD3FC">Telegram</text>
+    <text x="122" y="104" text-anchor="middle" font-size="17" fill="#BACADA">бот</text>
+    <rect x="264" y="34" width="188" height="94" rx="12" fill="#35152B" stroke="#BE185D"/>
+    <text x="358" y="77" text-anchor="middle" font-size="26" font-weight="600" fill="#FDA4AF">NestJS API</text>
+    <text x="358" y="104" text-anchor="middle" font-size="17" fill="#BACADA">заявка</text>
+    <rect x="500" y="34" width="188" height="94" rx="12" fill="#261E42" stroke="#7C3AED"/>
+    <text x="594" y="77" text-anchor="middle" font-size="26" font-weight="600" fill="#C4B5FD">BullMQ</text>
+    <text x="594" y="104" text-anchor="middle" font-size="17" fill="#BACADA">очередь · Redis</text>
+    <rect x="736" y="34" width="196" height="94" rx="12" fill="#113529" stroke="#059669"/>
+    <text x="834" y="77" text-anchor="middle" font-size="26" font-weight="600" fill="#6EE7B7">Worker</text>
+    <text x="834" y="104" text-anchor="middle" font-size="17" fill="#BACADA">workflow</text>
+    <rect x="264" y="180" width="668" height="50" rx="10" fill="#162335" stroke="#37506C"/>
+    <text x="598" y="212" text-anchor="middle" font-size="22" fill="#BFDBFE">PostgreSQL · заявки, результаты, шаги выполнения</text>
+  </g>
+  <g fill="none" stroke="#7B8BA3" stroke-width="2" marker-end="url(#arrow)">
+    <path d="M 220 81 H 253"/>
+    <path d="M 456 81 H 489"/>
+    <path d="M 692 81 H 725"/>
+    <path d="M 358 133 V 169"/>
+    <path d="M 834 133 V 169"/>
+  </g>
+</svg>

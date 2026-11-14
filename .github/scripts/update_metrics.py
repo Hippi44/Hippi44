@@ -26,14 +26,14 @@ THEMES = {
         "border": "#D8DEE4",
         "text": "#1F2328",
         "muted": "#57606A",
-        "accent": "#446B34",
+        "accent": "#0369A1",
     },
     "dark": {
         "background": "#161B22",
         "border": "#30363D",
         "text": "#F0F3F6",
         "muted": "#9DA7B3",
-        "accent": "#B7D79C",
+        "accent": "#38BDF8",
     },
 }
 
@@ -140,11 +140,11 @@ def render_svg(snapshot: dict, theme: str) -> str:
       <text x="844" y="85">{year}</text>
     </g>
     <g fill="{colors['text']}" font-size="20" font-weight="500">
-      <text x="44" y="119">публичных репозиториев</text>
-      <text x="444" y="119">TypeScript-репозиториев</text>
-      <text x="844" y="119">аккаунт на GitHub с</text>
+      <text x="44" y="119">Публичные репозитории</text>
+      <text x="444" y="119">TypeScript-репозитории</text>
+      <text x="844" y="119">Год регистрации</text>
     </g>
-    <text x="44" y="163" fill="{colors['muted']}" font-size="17">GitHub API · публичные данные · обновлено {date}</text>
+    <text x="44" y="163" fill="{colors['muted']}" font-size="17">Обновлено {date}</text>
   </g>
 </svg>
 '''
