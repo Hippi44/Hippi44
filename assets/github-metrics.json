@@ -1,0 +1,13 @@
+{
+  "username": "Hippi44",
+  "public_repositories": 24,
+  "typescript_repositories": 8,
+  "account_created_at": "2024-07-02T09:58:56Z",
+  "source": {
+    "profile": "https://api.github.com/users/Hippi44",
+    "repositories": "https://api.github.com/users/Hippi44/repos?type=owner&per_page=100",
+    "scope": "Public owned repositories, including forks and archives",
+    "typescript_definition": "repository.language == TypeScript"
+  },
+  "updated_at": "2026-11-14"
+}

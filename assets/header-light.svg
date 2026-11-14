@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="248" viewBox="0 0 1200 248" role="img" aria-labelledby="title desc">
+  <title id="title">Hippilokkery — Fullstack Developer</title>
+  <desc id="desc">Web interfaces, APIs and Telegram integrations. Minimal portfolio header, light theme.</desc>
+  <rect x="1" y="1" width="1198" height="246" rx="18" fill="#F6F8FA" stroke="#D8DEE4"/>
+  <rect x="44" y="40" width="32" height="4" rx="2" fill="#446B34"/>
+  <text x="92" y="47" fill="#57606A" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="600" letter-spacing="3">WEB · API · TELEGRAM</text>
+  <text x="40" y="127" fill="#1F2328" font-family="Segoe UI, Arial, sans-serif" font-size="72" font-weight="700" letter-spacing="-3">Hippilokkery</text>
+  <text x="44" y="174" fill="#446B34" font-family="Segoe UI, Arial, sans-serif" font-size="27" font-weight="600">Fullstack Developer</text>
+  <text x="44" y="215" fill="#57606A" font-family="Segoe UI, Arial, sans-serif" font-size="18">Interfaces. Integrations. Automation.</text>
+  <path d="M 870 40 V 208" stroke="#D8DEE4"/>
+  <g fill="none" stroke="#446B34" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M 931 91 L 951 71 L 931 51 M 1015 51 L 995 71 L 1015 91 M 979 46 L 965 96"/>
+    <path d="M 946 126 H 1003 M 946 149 H 1003 M 946 172 H 1003" stroke="#8C959F" stroke-width="2"/>
+  </g>
+  <circle cx="928" cy="126" r="4" fill="#446B34"/>
+  <circle cx="928" cy="149" r="4" fill="#446B34"/>
+  <circle cx="928" cy="172" r="4" fill="#446B34"/>
+  <text x="1031" y="132" fill="#57606A" font-family="Segoe UI, Arial, sans-serif" font-size="17">UI</text>
+  <text x="1031" y="155" fill="#57606A" font-family="Segoe UI, Arial, sans-serif" font-size="17">API</text>
+  <text x="1031" y="178" fill="#57606A" font-family="Segoe UI, Arial, sans-serif" font-size="17">BOTS</text>
+</svg>
