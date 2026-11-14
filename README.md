@@ -16,15 +16,25 @@
 
 ## Проекты
 
-### BoostPay
+### Эко-парк «Эхо» · e-echo.ru
 
-[![BoostPay — скриншот опубликованного сайта](assets/previews/boostpay.webp)](https://hippi44.github.io/boostpay-app/)
+[![Эко-парк «Эхо» — скриншот e-echo.ru](assets/previews/e-echo.webp)](https://e-echo.ru/)
 
-Витрина цифровых товаров: поиск, фильтры, избранное, личный кабинет и админка. Из админки можно менять каталог и статусы заказов. Данные и авторизация хранятся в `localStorage`, платежи не подключены.
+Сайт эко-парка с отдельными страницами домов A-Frame и «Усадьба», фотогалереей и видеообзорами. Условия проживания и бронирования, отзывы и связь через мессенджеры.
 
-<sub>React · TypeScript · React Router · Vite · CSS Modules</sub>
+<sub>HTML · CSS · JavaScript</sub>
 
-[Код](https://github.com/Hippi44/boostpay-app) · [Сайт](https://hippi44.github.io/boostpay-app/)
+[Открыть e-echo.ru](https://e-echo.ru/)
+
+### BoostPayStore · boostpaystore.ru
+
+[![BoostPayStore — скриншот boostpaystore.ru](assets/previews/boostpaystore.webp)](https://boostpaystore.ru/)
+
+Магазин пополнений, подписок и цифровых товаров для игр. Каталог с поиском и фильтрами, карточки игр и сервисов, личный кабинет, статьи и поддержка. В интерфейсе можно выбрать язык и валюту.
+
+<sub>Next.js · React</sub>
+
+[Открыть boostpaystore.ru](https://boostpaystore.ru/)
 
 ### NOKTURN
 
@@ -35,16 +45,6 @@
 <sub>HTML · CSS · JavaScript · Pointer Events</sub>
 
 [Код](https://github.com/Hippi44/lendingPage) · [Сайт](https://hippi44.github.io/lendingPage/)
-
-### Electric Line
-
-[![Electric Line — скриншот опубликованного сайта](assets/previews/electric-line.webp)](https://hippi44.github.io/ElectricLine/)
-
-Сайт аренды электровелосипедов: карточки моделей, характеристики, цены, контакты и карта пунктов аренды. Интерфейс на React, стили на Tailwind CSS, анимации на Motion.
-
-<sub>React · TypeScript · Tailwind CSS · Motion · Vite</sub>
-
-[Код](https://github.com/Hippi44/ElectricLine) · [Сайт](https://hippi44.github.io/ElectricLine/)
 
 ### Automation System
 
